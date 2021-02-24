@@ -1,3 +1,16 @@
+#ESP32-Radio-WM8731
+
+Forked to support WM8731 chipset. 
+
+Pin wiring details:
+```
+#define I2S_DOUT      22
+#define I2S_BCLK      23
+#define I2S_LRC       21  
+#define I2C_SDA       18
+#define I2C_SCL       19
+```
+
 # ESP32-audioI2S
 Plays mp3, m4a and wav files from SD card via I2S with external hardware.
 HELIX-mp3 and -aac decoder is included.
